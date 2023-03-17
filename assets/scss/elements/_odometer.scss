@@ -1,0 +1,29 @@
+
+
+// odometer section style
+
+
+
+.number-counter-section{
+    text-align: center;
+    padding: 30px;
+    position: relative;
+    border-radius: 20px;
+    background: var(--background-color-1);
+    box-shadow: var(--shadow-1);
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    transition: 0.5s all ease-in-out;
+    display: flex;
+    justify-content: center;
+    .counter{
+        font-size: 65px;
+        color: var(--color-primary);
+        line-height: 56px;
+        margin-bottom: 0;
+        span{
+            display: inline-block;
+        }
+    }
+}
